@@ -39,4 +39,9 @@ public class Mage implements RPGCharacter {
     public void decreaseHealth(int amount) {
         health -= amount;
     }
+
+    // เพิ่ม Getter สำหรับ magicPower
+    public int getMagicPower() {
+        return magicPower;
+    }
 }

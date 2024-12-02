@@ -1,4 +1,4 @@
-public class Warrior implements RPGCharacter{
+public class Warrior implements RPGCharacter {
     private String name;
     private int health;
     private int attackPower;
@@ -38,5 +38,10 @@ public class Warrior implements RPGCharacter{
 
     public void decreaseHealth(int amount) {
         health -= amount;
+    }
+
+    // เพิ่ม Getter สำหรับ attackPower
+    public int getAttackPower() {
+        return attackPower;
     }
 }
